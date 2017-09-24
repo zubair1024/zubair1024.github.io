@@ -15,4 +15,8 @@ The solution is simple, just append the following line in the **ROOT** of your w
 RedirectMatch 404 /\.git
 {% endhighlight %}
 
-Then reload apache and viola! All git related files in any subdirectories are now hidden from prying eyes.
+Then reload apache and viola! All git related files in any subdirectories are now hidden from prying eyes. I don't know what to do here. There have been so many changes that there could be anything happening to us.
+
+# life is Short 
+### I don't know what do with it
+

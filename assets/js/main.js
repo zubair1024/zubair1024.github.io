@@ -56,10 +56,18 @@
 
     //create AutoComplete UI component
     $("#countries").kendoAutoComplete({
-      dataSource: data,
-      filter: "startswith",
-      placeholder: "Select country...",
-      separator: ", "
+      dataSource: window.store.posts,
+      dataTextField: 'title',
+      ignoreCase: false,
+      filter: 'contains',
+      minLength: 3,
+      placeholder: 'Search...',
+      select: function (e) {
+        console.log(e);
+        if (e.dataItem.url) {
+          window.location.pathname = e.dataItem.url;
+        }
+      }
     });
   });
 })(jQuery);
