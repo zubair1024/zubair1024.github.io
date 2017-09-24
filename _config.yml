@@ -13,22 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Back to the Console"
+title: "Grizzlybit"
 description: > # this means to ignore newlines until "baseurl:"
   Rants, notes, code snippets and stuff.
 baseurl: ""
-url: "https://shawnteoh.github.io"
+url: "https://zubair1024.github.io"
 permalink: /:year/:month/:day/:title
-repository: ShawnTeoh/shawnteoh.github.io
+repository: zubair1024/zubair1024.github.io
 paginate: 5
 
 # MatJek specific configurations
 github_profile: "https://github.com/zubair1024"
-user: "Shawn Teoh"
-contact_url: "https://goo.gl/tVljbV"
-google_tracking_id: "UA-96531316-1"
-google_site_verification: "UA-96531316-1"
-disqus_shortname: "back-to-the-console"
+user: "Zubair Ahmed"
+contact_url: "http://twitter.com/zubair1024"
+google_tracking_id: "X"
+google_site_verification: "X"
+disqus_shortname: "grizzlybit"
 
 # Build settings
 markdown: kramdown
