@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "CSS Variables"
+title:  "Quickie on ES6"
 date:   2016-10-06
-banner_image: css.jpg
+banner_image: javascript.jpg
 tags: [tips and tricks, javascript, es6]
 ---
 
@@ -11,6 +11,8 @@ tags: [tips and tricks, javascript, es6]
 > There has been an inception of the 6th edition of the language and here is a quickie for the noobs
 
 As you might already know that JavaScript is an implementation of the general purpose client-side scripting language specification called ECMAScript. There has been an inception of the 6th edition of the language and here is a quickie for the noobs, if you know it please move along:
+
+<!--more-->
 I have “cheery-picked” a few features to get yourself introduced to the new capabilities it provides a developer:
 
 + ```let```

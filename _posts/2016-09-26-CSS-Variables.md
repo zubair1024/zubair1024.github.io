@@ -12,6 +12,8 @@ tags: [tips and tricks, css, stylesheets]
 
 Variables in CSS follow the same scope and inheritance rules that CSS generally follows. The easiest location to place your variables is at the root level, which will allow any class, pseudo class selector to inherit it.
 
+<!--more-->
+
 {% highlight css %}
 :root{
 --roamworks-black: #000;
