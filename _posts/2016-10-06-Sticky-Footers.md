@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sticky Footer"
-date:   2016-11-06
+date:   2016-10-06
 banner_image: css1.png
 tags: [tips and tricks, css, stylesheet]
 ---
@@ -29,7 +29,6 @@ html{
 }
 
 body{
-    
     display: flex;
     flex-direction: column;
     height: 100%;
