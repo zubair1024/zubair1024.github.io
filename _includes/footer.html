@@ -1,60 +1,44 @@
-    </main>
-    <footer class="page-footer teal">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <img src="{{site.baseurl}}/assets/res/logo.gif" alt="logo"/>
-            <p class="grey-text text-lighten-4">{{site.description}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
-        </div>
-      </div>
-    </footer>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://kendo.cdn.telerik.com/2017.3.913/js/kendo.all.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    {% for js in layout.js %}
-    {% if js contains "//" %}
-    <script src="{{js}}"></script>
-    {% else %}
-    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
-    {% endif %}
-    {% endfor %}
-    {% for js in page.js %}
-    {% if js contains "//" %}
-    <script src="{{js}}"></script>
-    {% else %}
-    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
-    {% endif %}
-    {% endfor %}
-    {% if site.google_tracking_id %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
-      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{site.google_tracking_id}}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-    <script>
-      window.store = {
-        posts: [
-        {% for post in site.posts %}
-          {
-            "title": "{{ post.title | xml_escape }}",
-            "author": "{{ post.author | xml_escape }}",
-            "category": "{{ post.category | xml_escape }}",
-            "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-            "url": "{{ post.url | xml_escape }}"
-          }
-          {% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ]
-      };
-    </script>
-    <script src="{{site.baseurl}}/assets/js/main.js"></script>
-  </body>
-</html>
+<footer class="site-footer">
+    <div class="inner">
+        <div class="social-links">
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="fa-twitter square fill-horizontal"><span class="screen-reader-text">Twitter</span></a>
+            {% endif %}
+            {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="fa-facebook square fill-horizontal"><span class="screen-reader-text">Facebook</span></a>
+            {% endif %}
+            {% if site.googleplus_username %}
+            <a href="https://plus.google.com/{{ site.googleplus_username }}" class="fa-google-plus square fill-horizontal"><span class="screen-reader-text">Google+</span></a>
+            {% endif %}
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" class="fa-github-alt square fill-horizontal"><span class="screen-reader-text">GitHub</span></a>
+            {% endif %}
+            {% if site.codepen_username %}
+            <a href="http://codepen.io/{{ site.codepen_username }}" class="fa-codepen square fill-horizontal"><span class="screen-reader-text">CodePen</span></a>
+            {% endif %}
+            {% if site.dribbble_uername %}
+            <a href="https://dribbble.com/{{ site.dribbble_uername }}" class="fa-dribbble square fill-horizontal"><span class="screen-reader-text">Dribbble</span></a>
+            {% endif %}
+            {% if site.medium_username %}
+            <a href="https://medium.com/{{ site.medium_username }}" class="fa-medium square fill-horizontal"><span class="screen-reader-text">Medium</span></a>
+            {% endif %}
+            {% if site.instagram_username %}
+            <a href="http://instagram.com/{{ site.instagram_username }}" class="fa-instagram square fill-horizontal"><span class="screen-reader-text">Instagram</span></a>
+            {% endif %}
+            {% if site.pinterest_username %}
+            <a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="fa-pinterest-p square fill-horizontal"><span class="screen-reader-text">Pinterest</span></a>
+            {% endif %}
+            {% if site.linkedin_username %}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="fa-linkedin square fill-horizontal"><span class="screen-reader-text">LinkedIn</span></a>
+            {% endif %}
+            {% if site.weibo_username %}
+            <a href="http://weibo.com/{{ site.weibo_username }}" class="fa-weibo square fill-horizontal"><span class="screen-reader-text">Weibo</span></a>
+            {% endif %}
+            <a class="fa-feed square fill-horizontal" href="{{ site.baseurl }}/feed.xml"><span class="screen-reader-text">RSS</span></a>
+        </div><!-- .social-links -->
+        <div class="site-info">
+            &copy; <a href="{{ site.baseurl }}/">{{site.title}}</a> all rights reserved. <br />Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>. BlogInn theme by <a target="_blank" href="http://justgoodthemes.com/">JustGoodThemes</a>
+            <a href="#top" id="top-link" class="fa-chevron-up top-link square fill-horizontal"><span class="screen-reader-text">Back to the top</span></a>
+        </div><!-- .site-info -->
+    </div><!-- .inner -->
+</footer><!-- .site-footer -->

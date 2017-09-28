@@ -1,45 +1,75 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: "Grizzlybit"
-description: > # this means to ignore newlines until "baseurl:"
-  Rants, notes, code snippets and stuff.
-baseurl: ""
-url: "https://zubair1024.github.io"
-permalink: /:year/:month/:day/:title
-repository: zubair1024/zubair1024.github.io
-paginate: 5
+# Site title
+title: "BlogInn"
 
-# MatJek specific configurations
-github_profile: "https://github.com/zubair1024"
-user: "Zubair Ahmed"
-contact_url: "http://twitter.com/zubair1024"
-google_tracking_id: "X"
-google_site_verification: "X"
-disqus_shortname: "grizzlybit"
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "BlogInn is a bold theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net."
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# Tagline near the site title
+tagline: "Thoughts, stories and ideas."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+
 sass:
-  style: compressed
-future: true
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "http://justgoodthemes.com"
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Style Guides
+  url: /style-guide/
+- text: Archives
+  url: /tags/
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "John Doe"
+author_bio: "John is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious."
+author_url:  "http://justgoodthemes.com"
+author_location: "Vilnius, Lithuania"
+author_image: /images/authorimage.png
+
+# Sidebar Add banner
+banner_url: "http://justgoodthemes.com"
+banner_image: images/banner.jpg
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "username"
+googleplus_username: "+username"
+github_username: "username"
+codepen_username: "username"
+dribbble_uername: "username"
+medium_username: "@username"
+instagram_username: "username"
+pinterest_username: "username"
+linkedin_username: "username"
+weibo_username: "username"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    auto_ids: false
