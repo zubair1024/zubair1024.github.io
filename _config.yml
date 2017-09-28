@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "BlogInn"
+title: "Grizzlybit"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "BlogInn is a bold theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net."
-
+description: "Grizzlybit is a JavaScript programmer's blog about his thoughts, ideas and stories"
+ 
 # Tagline near the site title
-tagline: "Thoughts, stories and ideas."
+tagline: "A coder's digest that is trying to be quirky, flawed and an enormous success."
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl:
@@ -38,31 +38,31 @@ navigation:
 disqus:
 
 # Author information - author info at the bottom of the post
-author_name: "John Doe"
-author_bio: "John is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious."
-author_url:  "http://justgoodthemes.com"
-author_location: "Vilnius, Lithuania"
-author_image: /images/authorimage.png
+author_name: "Zubair Ahmed"
+author_bio: "Zubair Ahmed is ambitious and passionate engineer who seeks adventures. Likes slapping the keyboard until something good happens."
+author_url:  "http://github.com/zubair1024"
+author_location: "Dubai, United Arab Emirates"
+author_image: /images/Zubair Ahmed.jpg
 
 # Sidebar Add banner
-banner_url: "http://justgoodthemes.com"
+banner_url: "http://grizzlybit.info"
 banner_image: images/banner.jpg
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
-mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+mailchimp_url: "//Grizzlybit.us13.list-manage.com/subscribe/post?u=f62123446eb4d2d91c25180f8&amp;id=aceae531dd"
 
 # Social links in the site footer
-twitter_username: "username"
-facebook_username: "username"
-googleplus_username: "+username"
-github_username: "username"
-codepen_username: "username"
-dribbble_uername: "username"
-medium_username: "@username"
-instagram_username: "username"
-pinterest_username: "username"
-linkedin_username: "username"
-weibo_username: "username"
+twitter_username: "zubair1024"
+facebook_username: "zoobair"
+googleplus_username: "+ZubairAhmed1024"
+github_username: "zubair1024"
+#codepen_username: "username"
+#dribbble_uername: "username"
+#medium_username: "@username"
+instagram_username: "zubair1024"
+pinterest_username: "zubair1024"
+linkedin_username: "zubair1024"
+#weibo_username: "username"
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 5

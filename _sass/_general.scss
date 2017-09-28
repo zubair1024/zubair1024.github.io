@@ -13,7 +13,8 @@ textarea {
 
 body {
     background-color: $mine-shaft;
-    color: #818181;
+    // color: #818181;
+    color: #000000;
     line-height: 1.66667;
 }
 
@@ -475,6 +476,10 @@ green     #859900  operators, other keywords
 .highlight .vg { color: $picton-blue } /* Name.Variable.Global */
 .highlight .vi { color: $picton-blue } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+.widget{
+    color: #818181;
+}
 
 /* Button styles */
 .square {
