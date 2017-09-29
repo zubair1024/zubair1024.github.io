@@ -26,7 +26,9 @@ If you haven't got it already, it basically, a utility function that takes a reg
 
 It has the following syntax:
 
+{% highlight javascript %}
 const wait = (delay, callback) => { /* … */ };
+{% endhighlight %}
 
 1. The last parameter of the function passed to `promisify` must be a callback
 2. The callback must follow Node's callback style
