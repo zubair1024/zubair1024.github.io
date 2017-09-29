@@ -3,7 +3,7 @@ layout: post
 title:  "Sticky Footer"
 date:   2016-10-06
 banner_image: css1.png
-tags: [tips and tricks, css, stylesheet]
+tags: [tips and tricks, CSS]
 ---
 
 When a footer is placed at the end of the body, we usually tend to have an issue with it when there isn’t much content in the body. This leaves room for alot of whitepace below the footer.

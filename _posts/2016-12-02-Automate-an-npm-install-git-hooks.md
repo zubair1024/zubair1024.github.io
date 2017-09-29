@@ -3,7 +3,7 @@ layout: post
 title:  "How to Automate an npm install if package.json is Modified using Git Hooks"
 date:   2016-12-12
 banner_image: integrate.jpg
-tags: [tips and tricks, git]
+tags: [tips and tricks, GIT]
 ---
 
 Currently, most (if not all) of my projects contain a package.json which is frequently modified to manage my dependencies in the project. But when collaborating we usually have to checked with every git pull to see if the package.json has been changed, if so we ensure that that we do a npm install. This in most cases is a bottleneck and frequently leads to errors.

@@ -3,7 +3,7 @@ layout: post
 title:  "CSS Variables"
 date:   2016-09-26
 banner_image: css.jpg
-tags: [tips and tricks, css, stylesheets]
+tags: [tips and tricks, CSS]
 ---
 
 > CSS introduces the notion of cascading variables in order to help solve the maintainability challenge.

@@ -3,7 +3,7 @@ layout: post
 title:  "Quick Introduction to Hapi"
 date:   2016-12-12
 banner_image: hapi.jpg
-tags: [tips and tricks, javascript, nodejs]
+tags: [tips and tricks, javascript, node]
 ---
 
 Just a disclaimer before we start, I have worked with Express and will definitely not say it is a better framework but just a different one. Hapi.js is a web framework for rapidly building web applications, REST API and services.

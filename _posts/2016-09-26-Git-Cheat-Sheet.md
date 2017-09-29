@@ -3,7 +3,7 @@ layout: post
 title:  "GIT Cheat Sheet"
 date:   2016-09-26
 banner_image: Git.jpg
-tags: [tips and tricks, programming]
+tags: [tips and tricks, GIT]
 ---
 
 We can all agree that git has become everyone’s favorite versioning system lately. Having experience with SVN and Git I can safely say that Git is not actually better but it is different. The key advantage is that it is decentralized. With Git, you can do practically anything offline, because everybody has their own repository. Making branches and merging between branches has never been easier. Git is complex, powerful and fast (since it works for Linux kernel of course). Every company and business setup has its own workflow and with SVN in my company we had a tough time adopting the version system with our business case. Git is very flexible and with its ```TIMTOWTDI``` approach will help is meet our goals. Well, everything has its pros and cons even though the pros will obviously outrun the cons, note that Git is much harder to learn, lacks a good GUI and revisions do not have version numbers. Below I have complied a few necessary git commands in the form of a cheat sheet:
