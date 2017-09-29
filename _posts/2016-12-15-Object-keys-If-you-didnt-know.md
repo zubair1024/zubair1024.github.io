@@ -31,6 +31,9 @@ const wait = (delay, callback) => { /* … */ };
 1. The last parameter of the function passed to `promisify` must be a callback
 2. The callback must follow Node's callback style
 
+But at the same time you can couple this with async to avoid the callback hell effectively!
+
+{% include image_caption.html imageurl="/images/posts/callback.jpg" title="Callback Hell" %}
 
 ##### Lets see it in action!
 
