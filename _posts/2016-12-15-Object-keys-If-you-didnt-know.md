@@ -124,6 +124,10 @@ const fs = require('fs');
 const readFileAsync = util.promisify(fs.readFile);
 {% endhighlight %}
 
+I hope this post will make your life a tad easier. I recommend signing up to our newsletter to get the most of what's happening in the grizzly world.
+
+Happy coding!
+
 
 
 
