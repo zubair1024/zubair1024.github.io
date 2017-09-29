@@ -1,7 +1,7 @@
 # Grizzlybit  
 
 [![author](https://img.shields.io/badge/author-zubair1024-lightgrey.svg)](https://github.com/zubair1024)
-[![stable](https://img.shields.io/badge/stability-unstable-darkred.svg)]()
+[![stable](https://img.shields.io/badge/stability-stable-darkgreen.svg)]()
 
 ![alt text](./me.gif "Grizzlybit")
 
