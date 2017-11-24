@@ -84,7 +84,7 @@ There are a few changes and qwirks you should adher to before implementing promi
 
 ###### Promisifying functions whose callbacks have more than two parameters
 
-he callbacks of the following functions receive more than one result value (in addition to the error value):
+callbacks of the following functions receive more than one result value (in addition to the error value):
 
 {% highlight javascript %}
 child_process.exec
