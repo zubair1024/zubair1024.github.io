@@ -24,13 +24,13 @@ You might also consider Bitcoin and Blockchain technology to be a leap for progr
 
 When in the digital realm, everyone has ideas, but it only a selected few can make it happen. The ability to code separates those who merely have an idea from those who can make their ideas a reality.
 
-Programming empowers the kids. It helps them express themselves in really cool ways, such as, getting a computer to solve complicated problems, ideas made accessible to millions, turning creativity into interactive reality, building and controlling robots etc. If you want your child to be thinker and innovator who can bring ideas to life, encourage him to learn to program. Yet again, I cannot emphasis this enough, programming gives children confidence and empowers them.
+Programming empowers the kids. **It helps them express themselves in really cool ways, such as, getting a computer to solve complicated problems, ideas made accessible to millions, turning creativity into interactive reality, building and controlling robots etc.** If you want your child to be thinker and innovator who can bring ideas to life, encourage him to learn to program. Yet again, I cannot emphasis this enough, programming gives children confidence and empowers them.
 
 {% include image_caption.html imageurl="/images/posts/thumbs-up.gif" %}
 
 Now you might ask, when is the right time to teach your child to code, is it too hard? Programming doesn't have to be hard to learn, if a child takes a real world object and models that object and manupliates the object in a certain way and immediately sees the results they wanted, this gives immediate feedback to the child. This type of instant positive reinforcement is an incredibly powerful educational tool. Programming languages are like any other real world language. It has to be taught (as early the better), it has to be practiced and then tested out. Programming gives children the ability to create technologies that impact those around them. 
 
-Believe me when I say this, a child with just a computer with the right aptitude and approach has the skill that could change the world.
+**Believe me when I say this, a child with just a computer with the right aptitude and approach has the skill that could change the world.**
 
 Code Grizzly!
 
