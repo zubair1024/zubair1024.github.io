@@ -12,7 +12,7 @@ As the world progresses at this rate, one has to master to communicate with mach
 
 The future most definitely is going to be more and more automated since our reliance on technology will only increase. The children today should not only learn to passively use this technology but also understand and control it! 
 
-<!-- more -->
+<!--more-->
 
 In the early days, writing was the ability to create change. Today, writing is not enough, it is curcial to leverage the digital realm. A very good example of this is, "Internet's Own Boy", [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz), who started programming at a very young age and eventually was able to involved in the development of the web feed format [RSS](https://en.wikipedia.org/wiki/RSS), the [Markdown](https://en.wikipedia.org/wiki/Markdown) punlishing format, [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons), involved in the web framework [web.py](http://webpy.org/) which is based on Python and Reddit to name a few. He was also a Internet hacktivist focused on civic awareness and activism.
 
