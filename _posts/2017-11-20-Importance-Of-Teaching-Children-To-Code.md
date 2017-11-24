@@ -30,7 +30,7 @@ Programming empowers the kids. It helps them express themselves in really cool w
 
 Now you might ask, when is the right time to teach your child to code, is it too hard? Programming doesn't have to be hard to learn, if a child takes a real world object and models that object and manupliates the object in a certain way and immediately sees the results they wanted, this gives immediate feedback to the child. This type of instant positive reinforcement is an incredibly powerful educational tool. Programming languages are like any other real world language. It has to be taught (as early the better), it has to be practiced and then tested out. Programming gives children the ability to create technologies that impact those around them. 
 
-Believe me when I say this, a child with just a computer and the right aptitude and approach has the skill that could change the world.
+Believe me when I say this, a child with just a computer with the right aptitude and approach has the skill that could change the world.
 
 Code Grizzly!
 
