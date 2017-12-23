@@ -6,7 +6,7 @@ banner_image: Full-Stack-Developer.png
 tags: [Food For Thought, Random Rambling]
 ---
 
-As stated by CodeUp, A full-stack developer is simply someone who is familiar with all layers in computer software development. These developers aren’t experts at everything; they simply have a functional knowledge and ability to take a concept and turn it into a finished product. I would like to iterate over what it takes and means to be a full-stack developer:
+As stated by [CodeUp](https://codeup.com/), A full-stack developer is simply someone who is familiar with all layers in computer software development. These developers aren’t experts at everything; they simply have a functional knowledge and ability to take a concept and turn it into a finished product. I would like to iterate over what it takes and means to be a full-stack developer:
 
 {% include image_caption.html imageurl="/images/posts/fullstackdeveloper.gif" title="Full-Stack Developer" %}
 <!--more-->
