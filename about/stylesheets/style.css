@@ -1739,3 +1739,7 @@ footer {
     background:#ec6a38
   }
 }
+
+.carousel-inner{
+  min-height: 38rem;
+}
